@@ -16,6 +16,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="drewCo.CSVTools.nuspec" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="CsvHelper" Version="33.1.0" />
     </ItemGroup>
 </Project>
