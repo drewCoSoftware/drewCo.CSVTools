@@ -6,17 +6,19 @@
     <authors>Andrew A. Ritz</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    
+
     <description>Convenience functions for CsvHelper nuget package.</description>
     <copyright>2025 Andrew A. Ritz</copyright>
-    
+
     <dependencies>
-       <group targetFramework="net8.0" />
+      <group targetFramework="net8.0">
+        <dependency id="CsvHelper" version="33.1.0" />
+      </group>
     </dependencies>
 
     <repository type="git" url="https://github.com/drewCoSoftware/drewCo.CSVTools" branch="main" />
 
   </metadata>
 
-  
+
 </package>
