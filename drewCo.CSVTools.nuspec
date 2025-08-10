@@ -1,0 +1,22 @@
+<package>
+  <metadata>
+    <id>drewCo.Tools</id>
+    <version>1.0.0.1</version>
+    <title>drewCo.CSVTools</title>
+    <authors>Andrew A. Ritz</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    
+    <description>Convenience functions for CSvHelper nuget package.</description>
+    <copyright>2025 Andrew A. Ritz</copyright>
+    
+    <dependencies>
+       <group targetFramework="net8.0" />
+    </dependencies>
+
+    <repository type="git" url="https://github.com/drewCoSoftware/drewCo.Tools" branch="main" />
+
+  </metadata>
+
+  
+</package>

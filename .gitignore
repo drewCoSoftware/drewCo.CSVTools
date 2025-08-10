@@ -1,0 +1,11 @@
+.vs
+
+# Don't include built stuff....
+bin/
+obj/
+lib/
+
+*.nupkg
+**/.nupkg
+**/.nuspec
+nuget-build/

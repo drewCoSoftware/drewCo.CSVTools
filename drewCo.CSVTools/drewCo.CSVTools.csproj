@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <Title>drewCo.CSVTools</Title>
+        <Authors>Andrew A. Ritz</Authors>
+        <Company>August &amp; Harper LLC</Company>
+        <Description>Convenience functions for CsvHelper nuget package.</Description>
+        <Copyright>2025 Andrew A. Ritz</Copyright>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CsvHelper" Version="33.1.0" />
+    </ItemGroup>
+</Project>
