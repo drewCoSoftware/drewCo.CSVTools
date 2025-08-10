@@ -9,12 +9,10 @@ namespace drewCo.CsvTools;
 /// <summary>
 /// Convenience functions for CsvHelper features.
 /// </summary>
-// TODO: We should make a silly little nuget package for these funtions, just so they don't have to be copied all over the place.
 public static class CsvTools
 {
 
     // ------------------------------------------------------------------------------------------------------------
-    // TODO: SHARE:
     public static List<TData> ReadCSV<TData>(string usePath)
     {
         using (var fs = new StreamReader(usePath))
@@ -26,7 +24,6 @@ public static class CsvTools
     }
 
     // ------------------------------------------------------------------------------------------------------------
-    // TODO: SHARE:
     // This version should be used when you don't want to close the underlying stream.
     public static List<TData> ReadCSV<TData>(Stream s)
     {
@@ -39,14 +36,12 @@ public static class CsvTools
     }
 
     // ------------------------------------------------------------------------------------------------------------
-    // TODO: SHARE:
     public static void AppendCSVData<TData>(Stream s, TData toAppend)
     {
         AppendCSVData<TData>(s, new[] { toAppend });
     }
 
     // ------------------------------------------------------------------------------------------------------------
-    // TODO: SHARE:
     public static void AppendCSVData<TData>(Stream s, IEnumerable<TData> toAppend)
     {
         bool isFirst = s.Length == 0;
