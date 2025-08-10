@@ -21,10 +21,10 @@ dotnet build drewCo.CSVTools.sln -p:Configuration=Release
 #Copy the stuff we care about to the lib folder....
 
 # NETCORE 8.0
-Copy-Item -Path ".\drewCo.CSVTools.Core\bin\Release\net8.0\drewCo.CSVTools.dll" "nuget-build\lib\net8.0\drewCo.CSVTools.dll"
-Copy-Item -Path ".\drewCo.CSVTools.Core\bin\Release\net8.0\drewCo.CSVTools.pdb" "nuget-build\lib\net8.0\drewCo.CSVTools.pdb"
-Copy-Item -Path ".\drewCo.CSVTools.Core\bin\Release\net8.0\drewCo.CSVTools.xml" "nuget-build\lib\net8.0\drewCo.CSVTools.xml"
-Copy-Item -Path ".\drewCo.CSVTools.Core\bin\Release\net8.0\drewCo.CSVTools.deps.json" "nuget-build\lib\net8.0\drewCo.CSVTools.deps.json"
+Copy-Item -Path ".\drewCo.CSVTools\bin\Release\net8.0\drewCo.CSVTools.dll" "nuget-build\lib\net8.0\drewCo.CSVTools.dll"
+Copy-Item -Path ".\drewCo.CSVTools\bin\Release\net8.0\drewCo.CSVTools.pdb" "nuget-build\lib\net8.0\drewCo.CSVTools.pdb"
+Copy-Item -Path ".\drewCo.CSVTools\bin\Release\net8.0\drewCo.CSVTools.xml" "nuget-build\lib\net8.0\drewCo.CSVTools.xml"
+Copy-Item -Path ".\drewCo.CSVTools\bin\Release\net8.0\drewCo.CSVTools.deps.json" "nuget-build\lib\net8.0\drewCo.CSVTools.deps.json"
 
 
 # Copy everything to the build dir....

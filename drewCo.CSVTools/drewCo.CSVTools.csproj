@@ -12,6 +12,7 @@
         <Copyright>2025 Andrew A. Ritz</Copyright>
         <AssemblyVersion>1.0.0.1</AssemblyVersion>
         <FileVersion>1.0.0.1</FileVersion>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
